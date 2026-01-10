@@ -76,12 +76,30 @@
 
 
 a {
-  color: white;
-  font-size: large;
-  text-decoration: none;
+    color: white;
+    font-size: large;
+    text-decoration: none;
 }
 
 a:visited {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
+
+@media (max-width: 900px) {
+    header,
+    .site-header,
+    .header {
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    nav,
+    .header-nav,
+    .nav,
+    .nav-links {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    }

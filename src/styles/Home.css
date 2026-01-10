@@ -2,84 +2,139 @@ body {
   background: 
     linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
     url('../resources/mountains.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .home{
 
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Helvetica Neue", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+     "Fira Sans", "Helvetica Neue", sans-serif;
     
 }
 
-.headers{
-
+.edit-card {
     position: fixed;
-    border: 4px solid white;
-    padding: 10px 20px;
-    color: white; /* text color */
-    font-size: 40px;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 640px;
+    width: 90%;
+    padding: 16px;
+    border: 3px solid #fff;
+    color: #fff;
+    background: rgba(0,0,0,0.85);
+    border-radius: 8px;
+    z-index: 1000;
 }
 
-.lists{
-
-    position: fixed;
-    display: grid;
-    padding: 10px 20px;
-    color: white; /* text color */
-    font-size: 20px;
-    gap: 20px;
+.edit-input {
+    width: 100%;
+    margin: 8px 0 24px 0;
+    padding: 10px 12px;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font: inherit;
+    box-sizing: border-box;
 }
 
-#interests_list{
-
-    top: 680px;
-    left: 432px;
+.edit-input::placeholder {
+    color: #ccc;
+    font-style: italic;
 }
 
-#plans_list{
-    
-    top: 680px;
-    left: 1252px;
+.edit-input:focus {
+    border-color: #4caf50;
+    background: rgba(0,0,0,0.5);
+    outline: none;
 }
 
-#interests{
-
-    top: 550px;
-    left: 412px;
+.save-btn {
+    padding: 10px 16px;
+    border: 2px solid #fff;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-#plans{
+.save-btn:hover {
+    background: rgba(255,255,255,0.2);
+}
 
-    top: 550px;
-    left: 1232px;
+#text1{
 
-    /* Optical illusion??? */
-    /*left: 412px;*/
+    height: 120px;
+}
+
+#text2{
+
+    height: 120px;
+}
+
+.edit-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.edit-main {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.auth-panel {
+    flex: 0 0 320px;
+    border: 3px solid #fff;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.auth-panel input,
+.auth-panel .auth-input,
+.auth-panel button,
+.auth-panel .auth-btn {
+
+    width: 100%;
+    margin: 8px 0 12px 0;
+    padding: 10px 12px;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font: inherit;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.auth-panel input:focus,
+.auth-panel .auth-input:focus {
+
+    border-color: #4caf50;
+    background: rgba(0,0,0,0.5);
+    outline: none;
+    cursor: text;
 }
 
 
-#profile_photo{
-
-    position: fixed;
-    left: 800px;
-    top: 150px;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid white;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+@media (max-width: 900px) {
+    .edit-layout {
+        flex-direction: column;
+    }
+    .auth-panel {
+        width: 100%;
+        flex: 1 1 auto;
+    }
 }
 
-#name {
-    position: fixed;
-    left: 812px;
-    top: 400px;
-    border: 4px solid white;
-    padding: 10px 20px;
-    color: white; /* text color */
-    font-size: 40px;
+.edit-card {
+    max-width: 960px;
 }
+
