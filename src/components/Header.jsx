@@ -9,7 +9,7 @@ function Header(){
 
     return(
 
-        /* Very basic navigation header */
+        
         <header className = "header">
             <nav>
                     <div id = "nav_div">
