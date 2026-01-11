@@ -5,7 +5,15 @@ export default function Education() {
     <div className="home">
 
       <section className="edit_card">
-        
+
+        <h1>Key achievements</h1>
+        <ul className="key_achievements">
+          <li>70% Avergage for third year computer science modules</li>
+          <li>Placed third academically in matric</li>
+          <li>Highest final CAT mark in matric</li>
+          
+        </ul>
+
         <h1>Highschool</h1>
         <h3>Matric</h3>
 
@@ -48,9 +56,7 @@ export default function Education() {
             <li>Operations Research 214 - 58</li>
             <li>Computer Science 214 - 62</li>
             <li>Math 244 - 50</li>
-            <li>Applied Math 244 - 36</li>
-            <li>Operations Research 244 - 45</li>
-            <li>Computer Science 244 - 45</li>
+            <li>Computer Science 244 - 62</li>
 
           </ul>
 
@@ -62,6 +68,9 @@ export default function Education() {
             <li>Computer science 313 - 71</li>
             <li>Operations Research 314 - 57</li>
             <li>Operations Research 322 - 50</li>
+            <li>Computer science 343 - 81</li>
+            <li>Computer science 344 - 68</li>
+
 
           </ul>
 

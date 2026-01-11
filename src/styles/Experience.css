@@ -26,6 +26,12 @@
     gap: 10px;
 }
 
+.skills {
+
+
+    line-height: 1.8;
+}
+
 @media (max-width: 900px) {
     .edit_card {
         position: static !important;

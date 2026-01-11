@@ -20,9 +20,10 @@
 }
 
 
-.education_list{
+.education_list, .key_achievements{
 
     display: grid;
+    line-height: 1.8;
     gap: 10px;
 }
 
