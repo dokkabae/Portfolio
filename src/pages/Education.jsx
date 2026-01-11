@@ -6,7 +6,7 @@ export default function Education() {
 
       <section className="edit_card">
 
-        <h1>Key achievements</h1>
+        <h1 className="headings">Key achievements</h1>
         <ul className="key_achievements">
           <li>70% Avergage for third year computer science modules</li>
           <li>Placed third academically in matric</li>
@@ -14,8 +14,8 @@ export default function Education() {
           
         </ul>
 
-        <h1>Highschool</h1>
-        <h3>Matric</h3>
+        <h1 className="headings">Highschool</h1>
+        <h3 className="headings">Matric</h3>
 
           <ul className="education_list">
             <li>Math - 78</li>
@@ -28,8 +28,8 @@ export default function Education() {
 
           </ul>
 
-        <h1>University</h1>
-        <h3>First year</h3>
+        <h1 className="headings">University</h1>
+        <h3 className="headings">First year</h3>
 
           <ul className="education_list">
 
@@ -47,7 +47,7 @@ export default function Education() {
 
           </ul>
 
-        <h3>Second year</h3>
+        <h3 className="headings">Second year</h3>
 
           <ul className="education_list">
 
@@ -60,16 +60,16 @@ export default function Education() {
 
           </ul>
 
-        <h3>Third year</h3>
+        <h3 className="headings">Third year</h3>
 
           <ul className="education_list">
 
-            <li>Computer science 314 - 60</li>
-            <li>Computer science 313 - 71</li>
+            <li>Computer science 314 - 60 (Concurrent programming)</li>
+            <li>Computer science 313 - 71 (Advanced computer networks)</li>
             <li>Operations Research 314 - 57</li>
             <li>Operations Research 322 - 50</li>
-            <li>Computer science 343 - 81</li>
-            <li>Computer science 344 - 68</li>
+            <li>Computer science 343 - 81 (Website Development)</li>
+            <li>Computer science 344 - 68 (Software Engineering)</li>
 
 
           </ul>

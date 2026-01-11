@@ -15,7 +15,16 @@ body {
     
 }
 
+.greeting {
+
+    margin: 0;
+    text-align: center;
+    font-size: 1.6rem;
+    animation: float-in 700ms ease-out both;
+}
+
 .edit-card {
+
     position: fixed;
     top: 53%;
     left: 50%;
@@ -138,3 +147,13 @@ body {
     max-width: 960px;
 }
 
+@keyframes float-in {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

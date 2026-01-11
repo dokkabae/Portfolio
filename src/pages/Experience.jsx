@@ -7,7 +7,7 @@ export default function Experience() {
       <section className="edit_card">
         
         <div className="skills">
-        <h1>Technical Skills</h1>
+        <h1 className="headings">Technical Skills</h1>
 
           <ul className="education_list">
           

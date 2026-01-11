@@ -20,10 +20,11 @@
 }
 
 
-.education_list, .key_achievements{
+.education_list, .key_achievements, .headings{
 
     display: grid;
     line-height: 1.8;
+    animation: float-in 700ms ease-out both;
     gap: 10px;
 }
 
