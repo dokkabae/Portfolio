@@ -13,7 +13,10 @@ export default function Layout() {
         playsInline
         aria-hidden="true"
       >
-        <source src="/backgrounds/portfolio_background.mp4" type="video/mp4" />
+        <source
+          src={`${import.meta.env.BASE_URL}backgrounds/portfolio_background.mp4`}
+          type="video/mp4"
+        />
       </video>
       <Header />
       <div className="app-shell">
