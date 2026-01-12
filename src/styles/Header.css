@@ -15,7 +15,7 @@
 #Home{
 
     position: absolute;
-    top: 22px;
+    top: 20px;
     left: 900px;
     padding: 15px 20px;
 
@@ -24,7 +24,7 @@
 #Education{
 
     position: absolute;
-    top: 22px;
+    top: 20px;
     left: 1010px;
     padding: 15px 20px;
 }
@@ -32,7 +32,7 @@
 #Experience{
 
     position: absolute;
-    top: 22px;
+    top: 20px;
     left: 1150px;
     padding: 15px 20px;
     
@@ -41,7 +41,7 @@
 #Blog{
 
     position: absolute;
-    top: 22px;
+    top: 20px;
     left: 1300px;
     padding: 15px 20px;
 }
