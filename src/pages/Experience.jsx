@@ -18,12 +18,14 @@ export default function Experience() {
             <li>Advanced computer structures and algorithms</li>
             <li>Low level computer architecture</li>
             <li>Advanced logistics algorithms</li>
+            <li>Experience with the Java Virtual Machine (JVM)</li>
             <li>Queueing theory</li>
             <li>Dynamic programming</li>
             <li>Linear programming</li>
+            <li>Stochastic processes</li>
             <li>Advanced Calculus and Linear Algebra</li>
             <li>Simulation Modelling</li>
-            <li>Data Analysis in R</li>
+            <li>Data Analysis in R and MATLAB</li>
             <li>Years of experience working with shared Git repositories</li>
             <li>Years of experience working with Linux</li>
 
