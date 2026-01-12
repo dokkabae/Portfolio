@@ -70,7 +70,7 @@ a:visited {
 #nav_div .nav-link {
     display: inline-block;
     padding: 6px 12px;
-    padding-bottom: 7px;
+    padding-bottom: 9px;
     border: 3px solid #fff;
     border-radius: 999px;
     transition: border-color 150ms ease, color 150ms ease;
