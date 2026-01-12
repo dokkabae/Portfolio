@@ -71,6 +71,7 @@ export default function Education() {
           </ul>
         </div>
       </section>
+      {/*testing*/}
     </div>
   );
 }
