@@ -7,7 +7,7 @@ export default function Projects() {
         <div className="projects-card">
           <h1 className="headings">Languages</h1>
           <ul className="education_list">
-            <li>.NET framework</li>
+            <li>.NET MAUI framework</li>
             <li>C</li>
             <li>C#</li>
             <li>SQL</li>

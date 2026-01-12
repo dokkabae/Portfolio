@@ -5,6 +5,16 @@ import { Outlet } from "react-router-dom";
 export default function Layout() {
   return (
     <>
+      <video
+        className="bg-video"
+        autoPlay
+        muted
+        loop
+        playsInline
+        aria-hidden="true"
+      >
+        <source src="/backgrounds/portfolio_background.mp4" type="video/mp4" />
+      </video>
       <Header />
       <div className="app-shell">
         <main className="page-content">
