@@ -6,6 +6,7 @@ body {
 body {
     margin: 0;
     overflow: hidden;
+    zoom: 0.8;
 }
 
 .bg-video {
@@ -27,5 +28,6 @@ body {
 @media (max-width: 900px) {
     body {
         overflow: auto;
+        zoom: 1;
     }
 }
