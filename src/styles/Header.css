@@ -46,25 +46,6 @@
     padding: 15px 20px;
 }
 
-#insta_logo{
-
-    position: absolute;
-    top: 7px;
-    left: 1400px;
-    height: 70px;
-    width: auto;
-}
-
-
-#rick_roll{
-
-    position: absolute;
-    top:   17px;
-    left: 1500px;
-    height: 50px;
-    width: auto;
-}
-
 #logo{
 
     position: absolute;
@@ -88,16 +69,12 @@ a:visited {
 
 @media (max-width: 900px) {
     header,
-    .site-header,
     .header {
         justify-content: space-between;
         gap: 8px;
     }
 
-    nav,
-    .header-nav,
-    .nav,
-    .nav-links {
+    nav {
         width: 100%;
         justify-content: flex-start;
         gap: 10px;

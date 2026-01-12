@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import InstaLogo from "../resources/insta.jpg";
-import RickRoll from "../resources/rickroll.jpg";
 import Bzzz from "../resources/bzzz.png";
 import "../styles/Header.css";
 
