@@ -7,18 +7,23 @@ export default function Experience() {
       <section className="edit_card">
         
         <div className="skills">
-        <h1 className="headings">Technical Skills</h1>
+        <h1 className="headings">Technical Experience</h1>
 
           <ul className="education_list">
           
-            <li>Experience building cross-platform apps in .NET Maui framework</li>
+            <li>Experience building cross-platform apps in .NET MAUI framework</li>
             <li>Full stack website development (React, PostgreSQL, Express)</li>
             <li>Parallel programming (OpenMP and MPI)</li>
             <li>Advanced computer networks</li>
+            <li>Advanced computer structures and algorithms</li>
             <li>Low level computer architecture</li>
-            <li>Advanced logistics algorithm</li>
+            <li>Advanced logistics algorithms</li>
             <li>Queueing theory</li>
-            <li>Monte carlo simulations</li>
+            <li>Dynamic programming</li>
+            <li>Linear programming</li>
+            <li>Advanced Calculus and Linear Algebra</li>
+            <li>Simulation Modelling</li>
+            <li>Data Analysis in R</li>
             <li>Years of experience working with shared Git repositories</li>
             <li>Years of experience working with Linux</li>
 

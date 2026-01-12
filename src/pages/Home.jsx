@@ -4,11 +4,11 @@ export default function Home() {
     <div className="home">
       <section className="edit-card">
         <div className="greeting">
-          <h1>Hi, welcome to my portfolio.</h1>
-          <h3>My name is Ian du Toit.</h3>
-          <h4>I'm a final year computer science undergraduate.</h4>
-          <h4>Please have a look around to get an</h4>
-          <h4>idea of the type of work I have done.</h4>
+          <h1>Hi, welcome to my portfolio</h1>
+          <h3>My name is Ian du Toit</h3>
+          <h4>I'm a final year computer science undergraduate</h4>
+          <h4>Feel free to have a look around and e-mail me</h4>
+          <h4>at ian@dutoit.ws for any inquiries</h4>
         </div>
       </section>
     </div>

@@ -15,7 +15,7 @@
 #Home{
 
     position: absolute;
-    top: 15px;
+    top: 22px;
     left: 900px;
     padding: 15px 20px;
 
@@ -24,7 +24,7 @@
 #Education{
 
     position: absolute;
-    top: 15px;
+    top: 22px;
     left: 1010px;
     padding: 15px 20px;
 }
@@ -32,7 +32,7 @@
 #Experience{
 
     position: absolute;
-    top: 15px;
+    top: 22px;
     left: 1150px;
     padding: 15px 20px;
     
@@ -41,7 +41,7 @@
 #Blog{
 
     position: absolute;
-    top: 15px;
+    top: 22px;
     left: 1300px;
     padding: 15px 20px;
 }
@@ -65,6 +65,19 @@ a {
 a:visited {
     color: white;
     text-decoration: none;
+}
+
+#nav_div .nav-link {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 2px solid #fff;
+    border-radius: 999px;
+    transition: border-color 150ms ease, color 150ms ease;
+}
+
+#nav_div .nav-link:hover {
+    border-color: #0ad111;
+    color: #0ad111;
 }
 
 @media (max-width: 900px) {

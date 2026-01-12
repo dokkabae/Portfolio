@@ -12,13 +12,13 @@ function Header(){
             <nav>
                     <div id = "nav_div">
                         
-                    <Link id = "Home" to="/">Home</Link>
+                    <Link className="nav-link" id="Home" to="/">Home</Link>
 
-                    <Link id = "Education" to="/education">Education</Link>
+                    <Link className="nav-link" id="Education" to="/education">Education</Link>
 
-                    <Link id = "Experience" to="/experience">Experience</Link>
+                    <Link className="nav-link" id="Experience" to="/experience">Experience</Link>
 
-                    <Link id = "Blog" to="/blog">Blog</Link>
+                    <Link className="nav-link" id="Blog" to="/projects">Projects</Link>
                     <a>
 
                         <img src={Bzzz} alt="Bzzz" id="logo" />
