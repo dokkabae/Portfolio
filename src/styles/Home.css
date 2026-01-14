@@ -28,6 +28,15 @@
     z-index: 1000;
 }
 
+@media (max-width: 900px) {
+    .edit-card {
+        position: static;
+        transform: none;
+        width: 90%;
+        margin: 80px auto 24px;
+    }
+}
+
 @keyframes float-in {
     from {
         opacity: 0;

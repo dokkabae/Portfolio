@@ -1,11 +1,11 @@
 .edit_card {
     position: fixed;
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     
-    max-width: 640px;
-    width: 90%;
+    max-width: 960px;
+    width: 40%;
     height: 600px;
     
     padding: 16px;
@@ -35,12 +35,12 @@
 
 @media (max-width: 900px) {
     .edit_card {
-        position: static !important;
-        top: auto;
-        left: auto;
+        position: fixed;
         width: 100%;
-        max-width: 100%;
-        height: auto;
+        top: 320px;
+        left: 184px;
+        max-width: 79%;
+        height: 500px;
         margin: 80px 12px 24px;
         padding: 12px;
         box-sizing: border-box;

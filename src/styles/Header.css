@@ -84,13 +84,63 @@ a:visited {
 @media (max-width: 900px) {
     header,
     .header {
+        display: flex;
+        align-items: center;
+        height: 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2000;
         justify-content: space-between;
         gap: 8px;
     }
 
     nav {
+        display: flex;
+        align-items: center;
         width: 100%;
         justify-content: flex-start;
+        gap: 12px;
+    }
+
+    #nav_div {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
         gap: 10px;
+        position: static;
     }
+
+    #Home{
+
+        position: fixed;
+        top: 10px;
+        left: 20px;
     }
+    #Education{
+
+        position: fixed;
+        top: 60px;
+        left: 140px;
+    }
+    #Experience{
+
+        position: fixed;
+        top: 10px;
+        left: 140px;
+    }
+    #Blog {
+        position: fixed;
+        top: 60px;
+        left: 20px;
+    }
+
+    #logo {
+        position: fixed;
+        height: 74px;
+        top: 10px;
+        left: 300px;
+        margin-left: 4px;
+    }
+}

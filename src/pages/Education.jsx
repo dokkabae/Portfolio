@@ -4,7 +4,7 @@ export default function Education() {
   return (
     <div className="home">
       <section className="education-layout">
-        <div className="education-card">
+        <div className="education-card" id = "key">
           <h1 className="headings">Key achievements</h1>
           <ul className="key_achievements">
             <li>70% Average for third year computer science modules</li>
@@ -15,7 +15,7 @@ export default function Education() {
           </ul>
         </div>
 
-        <div className="education-card">
+        <div className="education-card" id = "high_school">
           <h1 className="headings">High school</h1>
           <h3 className="headings">Matric</h3>
 
@@ -30,7 +30,7 @@ export default function Education() {
           </ul>
         </div>
 
-        <div className="education-card">
+        <div className="education-card" id = "university">
           <h1 className="headings">University</h1>
           <h3 className="headings">First year</h3>
 
