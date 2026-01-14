@@ -8,6 +8,7 @@ export default function Education() {
           <h1 className="headings">Key achievements</h1>
           <ul className="key_achievements">
             <li>70% Average for third year computer science modules</li>
+            <li>Passed Computer science 343 with a distinction</li>
             <li>82% Final NSC average</li>
             <li>Placed third academically in matric</li>
             <li>Highest final CAT mark in matric</li>
