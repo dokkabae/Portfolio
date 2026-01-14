@@ -10,6 +10,7 @@
     margin: 0;
     text-align: center;
     font-size: 1.6rem;
+    font-weight: bold;
     animation: float-in 700ms ease-out both;
 }
 
@@ -31,14 +32,25 @@
 @media (max-width: 900px) {
     .edit-card {
         position: fixed;
-        top: 130px;
+        top: 160px;
         left: 20px;
         font-size: smaller;
         transform: none;
         width: 80%;
-        height: 670px;
+        height: 350px;
         padding-top: 0px;
     }
+
+    #heading{
+
+        font-size:xx-large
+    }
+
+    #body {
+
+        font-size: large;
+    }
+
 }
 
 @keyframes float-in {

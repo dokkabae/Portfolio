@@ -37,7 +37,8 @@
         width: 100%;
         height: 500px;
         padding: 0px;
-        padding-left: 22px;
+        padding-left: 15px;
+        padding-right: 25px;
     }
 
     #projects {
