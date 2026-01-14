@@ -31,9 +31,3 @@ body {
         zoom: 1;
     }
 }
-
-@media (min-width: 0px) {
-    body {
-        overflow: auto;
-    }
-}
