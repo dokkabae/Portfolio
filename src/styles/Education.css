@@ -44,8 +44,13 @@
     .education-card {
         width: 100%;
         height: 500px;
-        padding: 12px;
+        padding: 0px;
+        padding-left: 22px;
     }
 
+    #university{
+
+        margin-bottom: 20px;
+    }
 
 }

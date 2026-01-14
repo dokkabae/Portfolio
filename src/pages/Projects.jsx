@@ -27,7 +27,7 @@ export default function Projects() {
           </ul>
         </div>
 
-        <div className="projects-card">
+        <div className="projects-card" id = "projects">
           <h1 className="headings">Projects</h1>
           <ul className="education_list">
             <li>Cross-platform Campus Carpool App (.NET MAUI)</li>

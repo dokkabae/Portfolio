@@ -38,11 +38,12 @@
         position: fixed;
         width: 100%;
         top: 320px;
-        left: 184px;
-        max-width: 79%;
+        left: 183px;
+        max-width: 79.5%;
         height: 500px;
         margin: 80px 12px 24px;
-        padding: 12px;
+        padding: 0px;
+        padding-left: 22px;
         box-sizing: border-box;
     }
 }
