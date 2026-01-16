@@ -31,6 +31,7 @@ export default function Projects() {
           <h1 className="headings">Projects</h1>
           <ul className="education_list">
             <li>Cross-platform Campus Carpool App (.NET MAUI)</li>
+            <li>Local AI assistant running on Ollama</li>
             <li>Compiler for an LL(1) programming language (C)</li>
             <li>Process scheduler parallelized with OpenMP (C)</li>
             <li>Othello board game player bot parallelized with MPI (C)</li>

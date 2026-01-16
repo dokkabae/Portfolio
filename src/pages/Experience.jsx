@@ -12,6 +12,7 @@ export default function Experience() {
           <ul className="education_list">
           
             <li>Experience building cross-platform apps in .NET MAUI framework</li>
+            <li>Experience deploying local AI models (Ollama)</li>
             <li>Full stack website development (React, PostgreSQL, Express)</li>
             <li>Parallel programming (OpenMP and MPI)</li>
             <li>Advanced computer networks</li>
