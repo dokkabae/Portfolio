@@ -42,6 +42,7 @@ export default function Home() {
           <div id = "body">
             My name is Ian du Toit<br></br><br></br>
             I'm a final year computer science student<br></br><br></br>
+            I designed and built this website from scratch using React<br></br><br></br>
             Feel free to have a look around and e-mail me<br></br><br></br>
             at ian@dutoit.ws for any inquiries<br></br><br></br>
           </div>
