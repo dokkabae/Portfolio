@@ -1,9 +1,9 @@
 .education-layout {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 50px;
+    gap: 100px;
     max-width: 1200px;
-    margin: 110px auto 40px;
+    margin: 110px 350px 40px;
     padding: 0 20px;
     padding-top: 50px;
     
@@ -13,6 +13,7 @@
 .education-card {
     height: 600px;
     padding: 16px;
+    transition: 0.5s ease;
     width: 380px;
     border: 3px solid #fff;
     color: #fff;
@@ -21,6 +22,12 @@
     border-radius: 8px;
     box-sizing: border-box;
     overflow-y: auto;
+}
+
+.education-card:hover {
+    
+    transform: scale(1.1);
+    border: 3px solid #00FF7F;
 }
 
 .education_list, .key_achievements, .headings{

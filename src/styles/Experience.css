@@ -1,11 +1,10 @@
 .edit_card {
     position: fixed;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 23%;
+    left: 35%;
     
     height: 600px;
-    
+    transition: 0.5s ease;
     padding: 16px;
     border: 3px solid #fff;
     color: #fff;
@@ -23,6 +22,12 @@
 
     display: grid;
     gap: 10px;
+}
+
+.edit_card:hover {
+    
+    transform: scale(1.1);
+    border: 3px solid #00FF7F;
 }
 
 .skills {
