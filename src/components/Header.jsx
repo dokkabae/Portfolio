@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Bzzz from "../resources/bzzz.svg";
 import "../styles/Header.css";
 
 
@@ -17,7 +16,6 @@ function Header(){
                     <Link className="nav-link" id="Experience" to="/experience">Experience</Link>
                     <Link className="nav-link" id="Blog" to="/projects">Projects</Link>
                 
-                    <a><img src={Bzzz} alt="Bzzz" id="logo" /></a>
 
                     </div>
             </nav>

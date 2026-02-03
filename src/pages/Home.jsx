@@ -27,12 +27,13 @@ export default function Home() {
   return (
 
     <div className="home">
-      <motion.img
+      {/* This adds an image of a bee that follows the cursor, looks cool but unproffesional */}
+      {/* <motion.img
         id="cursor"
         src={bzzzLogo}
         alt="Bzzz cursor"
         animate={{ x: (cursorPos.x + 30) / zoom, y: (cursorPos.y + 30) / zoom }}
-      />
+      /> */}
 
       <section className="edit-card">
         <div className="greeting">
