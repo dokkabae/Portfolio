@@ -1,8 +1,8 @@
 .edit_card {
-    position: fixed;
-    top: 23%;
-    left: 35%;
-    
+
+    margin-top: 210px;
+    width: 30%;
+    justify-self: center;    
     height: 600px;
     transition: 0.5s ease;
     padding: 16px;
@@ -12,7 +12,6 @@
     background: rgba(0,0,0,0.85);
     border-radius: 8px;
     z-index: 1000;
-
     overflow-y: auto;
     box-sizing: border-box;
 }
